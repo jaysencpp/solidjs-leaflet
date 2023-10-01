@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.index.common.js",
   "module": "dist/index/index.module.js",
   "types": "dist/index/index.d.ts",
@@ -36,7 +36,8 @@
     "build": "rollup -c rollup.config.mjs"
   },
   "dependencies": {
-    "solid-js": "^1.7.8"
+    "solid-js": "^1.7.8",
+    "leaflet": "^1.9.4"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.6",
@@ -47,6 +48,12 @@
   },
   "peerDependencies": {
     "leaflet": ">=1.9.4",
-    "solid-js": ">=1.7.0"
+    "solid-js": ">=1.7.0",
+    "@types/leaflet": ">=1.9.4"
+  },
+  "peerDependenciesMeta": {
+    "@types/leaflet": {
+      "optional": true
+    }
   }
 }
