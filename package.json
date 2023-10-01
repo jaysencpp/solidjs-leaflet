@@ -1,0 +1,40 @@
+{
+  "name": "solidjs-leaflet",
+  "description": "Solid wrapper for leaflet",
+  "private": false,
+  "version": "0.0.3",
+  "main": "dist/index.index.common.js",
+  "module": "dist/index/index.module.js",
+  "types": "dist/index/index.d.ts",
+  "exports": {
+    ".": {
+      "solid": "./dist/index/index.jsx",
+      "import": "./dist/index/index.module.js",
+      "browser": "./dist/index/index.module.js",
+      "require": "./dist/index/index.common.js",
+      "node": "./dist/index/index.common.js",
+      "types": "./dist/index/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs"
+  },
+  "dependencies": {
+    "solid-js": "^1.7.8"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.6",
+    "rollup": "^3.29.4",
+    "rollup-plugin-import-css": "^3.3.4",
+    "rollup-preset-solid": "^2.0.1",
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "leaflet": ">=1.9.4",
+    "solid-js": ">=1.7.0"
+  }
+}
