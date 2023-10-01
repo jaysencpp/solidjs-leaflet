@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   leaflet:
-    specifier: ^1.9.4
+    specifier: '>=1.9.4'
     version: 1.9.4
   solid-js:
     specifier: ^1.7.8
