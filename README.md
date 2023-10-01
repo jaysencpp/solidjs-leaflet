@@ -38,7 +38,7 @@ To use the SolidJS leaflet wrapper:
 ```tsx
 import {SolidLeafletMap} from "solidjs-leaflet"
 
-const CardContentFigure = (props: CardContentFigureProps) => {
+const Example = () => {
   return (
     <SolidLeafletMap
       center={[63.0, 13.0]}
