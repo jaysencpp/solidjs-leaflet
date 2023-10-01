@@ -12,6 +12,7 @@
     "solidjs",
     "leaflet"
   ],
+  "license": "MIT",
   "private": false,
   "version": "1.0.0",
   "main": "dist/index.index.common.js",
