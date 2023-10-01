@@ -1,6 +1,17 @@
 {
   "name": "solidjs-leaflet",
   "description": "Solid wrapper for leaflet",
+  "author": "Jaysencpp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://jaysencpp@github.com/jaysencpp/solidjs-leaflet.git"
+  },
+  "homepage": "https://github.com/jaysencpp/solidjs-leaflet#readme",
+  "keywords": [
+    "solid",
+    "solidjs",
+    "leaflet"
+  ],
   "private": false,
   "version": "0.0.3",
   "main": "dist/index.index.common.js",
