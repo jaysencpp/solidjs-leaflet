@@ -12,7 +12,7 @@ export type SolidLeafletMapProps = {
   zoom?: number;
   /** The width of the map in pixels or percentage*/
   width?: `${number}px` | `${number}%`;
-  /** The height of the map in pixels */
+  /** The height of the map in pixels or percentage*/
   height?: `${number}px` | `${number}%`;
   /** Tile layer options */
   tileLayer?: {
