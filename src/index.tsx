@@ -10,10 +10,10 @@ export type SolidLeafletMapProps = {
   center: [number, number];
   /** Default zoom of the map */
   zoom?: number;
-  /** The width of the map in pixels */
-  width?: `${number}px`;
+  /** The width of the map in pixels or percentage*/
+  width?: `${number}px` | `${number}%`;
   /** The height of the map in pixels */
-  height?: `${number}px`;
+  height?: `${number}px` | `${number}%`;
   /** Tile layer options */
   tileLayer?: {
     /** Where to get the tiles from. Defaults to openstreetmap */
