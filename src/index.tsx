@@ -10,17 +10,17 @@ export type SolidLeafletMapProps = {
   center: [number, number];
   /** Default zoom of the map */
   zoom?: number;
-  /** The width of the map in pixels */
-  width?: `${number}px`;
-  /** The height of the map in pixels */
-  height?: `${number}px`;
+  /** The width of the map in pixels or percentage*/
+  width?: `${number}px` | `${number}%`;
+  /** The height of the map in pixels or percentage*/
+  height?: `${number}px` | `${number}%`;
   /** Tile layer options */
   tileLayer?: {
     /** Where to get the tiles from. Defaults to openstreetmap */
     urlTemplate?: string;
     options?: TileLayerOptions;
   };
-
+  /** Map options passed to default configuration of the map setup */
   mapOptions?: Omit<L.MapOptions, 'zoom' | 'center'>;
   /** Callback function that is ran after map is configured. */
   onMapReady?: (leaflet: typeof L, map: LMap) => void;

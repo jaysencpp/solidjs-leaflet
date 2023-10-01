@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.index.common.js",
   "module": "dist/index/index.module.js",
   "types": "dist/index/index.d.ts",
