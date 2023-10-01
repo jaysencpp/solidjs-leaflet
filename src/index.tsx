@@ -20,7 +20,7 @@ export type SolidLeafletMapProps = {
     urlTemplate?: string;
     options?: TileLayerOptions;
   };
-
+  /** Map options passed to default configuration of the map setup */
   mapOptions?: Omit<L.MapOptions, 'zoom' | 'center'>;
   /** Callback function that is ran after map is configured. */
   onMapReady?: (leaflet: typeof L, map: LMap) => void;
